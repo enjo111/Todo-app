@@ -1,0 +1,16 @@
+# Keep local configuration, dependencies, and Git-history backups out of GitHub.
+.repo-backups/
+node_modules/
+dist/
+dist-ssr/
+build/
+.test-build/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db
+*.db3
+*.log
